@@ -1,0 +1,54 @@
+.madplan-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-top: 1px;
+}
+
+.madplan-table tr {
+  border-bottom: 1px solid #666;
+  line-height: 1.1rem;
+}
+
+.madplan-table td {
+  padding: 2px 2px;
+  font-size: 1rem;
+}
+
+..weekday {
+  text-align: left;
+  font-weight: bold;
+  padding-right: 10px;
+  color: #fff;
+  width: 25%;
+}
+
+.date {
+  text-align: left;
+  color: #ccc;
+  width: 15%;
+}
+
+.dish {
+  text-align: right;
+  font-style: italic;
+  color: #fff;
+  width: 60%;
+}
+
+
+.dim {
+  opacity: 0.6;
+}
+
+.separator {
+  border-top: 1px solid #666;
+  margin: 10px 0;
+}
+
+.last-updated {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: right;
+  margin-top: 10px;
+}
